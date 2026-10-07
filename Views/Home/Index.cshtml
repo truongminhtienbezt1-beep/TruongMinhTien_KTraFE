@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Lon Sữa Glucerna 800g/lon - Tặng 2 gói dùng thử";
+}
+
+<main class="container">
+    <nav class="breadcrumb">
+        <a href="#">Trang chủ</a> <i class="fas fa-chevron-right"></i>
+        <a href="#">Đồ Chơi - Mẹ &amp; Bé</a> <i class="fas fa-chevron-right"></i>
+        <a href="#">Dinh dưỡng cho người lớn</a> <i class="fas fa-chevron-right"></i>
+        <span>Lon Sữa Glucerna 800g/lon - Tặng 2 gói dùng thử</span>
+    </nav>
+
+    <div class="product">
+        <section class="gallery card">
+            <div class="main-img img-placeholder"><i class="fas fa-box-open"></i><span>Mặt bên trái / Mặt bên phải</span></div>
+            <div class="thumbs">
+                <button class="thumb active"><i class="fas fa-box-open"></i></button>
+                <button class="thumb"><i class="fas fa-box-open"></i></button>
+                <button class="thumb"><i class="fas fa-box-open"></i></button>
+                <button class="thumb"><i class="fas fa-box-open"></i></button>
+            </div>
+            <a href="#" class="more-link"><i class="fas fa-award"></i> Xem thêm Ưu điểm &amp; lưu ý của sản phẩm <i class="fas fa-chevron-right"></i></a>
+        </section>
+
+        <section class="info">
+            <div class="card">
+                <div class="tags">
+                    <span class="tag red">TOP DEAL</span>
+                    <span class="tag blue">30 NGÀY ĐỔI TRẢ</span>
+                    <span class="tag blue">CHÍNH HÃNG</span>
+                    <span class="brand">Thương hiệu: <a href="#">Glucerna</a></span>
+                </div>
+                <h1>Lon Sữa Glucerna 800g/lon - Tặng 2 gói dùng thử</h1>
+                <p class="rating">5.0 <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span> (11) <span class="sep">|</span> Đã bán 436</p>
+                <p class="origin">Made in Spain</p>
+                <p class="price" id="giaSanPham" data-gia="1034550">1.034.550₫</p>
+                <p class="flavor-label">Hương vị</p>
+                <button class="flavor"><i class="fas fa-check"></i> Vani</button>
+            </div>
+
+            <div class="card">
+                <h2>Thông tin vận chuyển</h2>
+                <p class="ship-to">Giao đến Q. 1, P. Bến Nghé, Hồ Chí Minh <a href="#">Đổi</a></p>
+                <p><span class="now">NOW</span> <b>Giao siêu tốc 2h</b><br><small>Trước 11h hôm nay: Miễn phí <s>25.000₫</s></small></p>
+                <p><i class="far fa-sun"></i> <b>Giao đúng sáng mai</b><br><small>8h - 12h, 01/10: Miễn phí <s>19.600₫</s></small></p>
+                <p><i class="fas fa-truck"></i> <small>Freeship 10k đơn từ 45k, Freeship 25k đơn từ 100k <i class="far fa-question-circle"></i></small></p>
+            </div>
+
+            <div class="card">
+                <h2>Dịch vụ bổ sung</h2>
+                <div class="service"><span class="ico blue-bg">TikiCard</span><span>Ưu đãi đến 600k với thẻ TikiCard</span><a href="#">Đăng ký</a></div>
+                <div class="service"><span class="ico purple-bg">PayLater</span><span>Mua trước trả sau</span><a href="#">Đăng ký</a></div>
+            </div>
+        </section>
+
+        <aside class="buy">
+            <div class="card">
+                <div class="seller">
+                    <span class="logo-sm">TIKI</span>
+                    <div>
+                        <b>Tiki Trading</b><br>
+                        <small><i class="fas fa-check-circle blue"></i> OFFICIAL &nbsp; 4.7 <i class="fas fa-star yellow"></i> (5.5tr+ đánh giá)</small>
+                    </div>
+                </div>
+                <p class="flavor-pick"><i class="fas fa-cube"></i> Vani</p>
+
+                <p class="label">Số Lượng</p>
+                <div class="qty">
+                    <button type="button" id="btnGiam" aria-label="Giảm"><i class="fas fa-minus"></i></button>
+                    <input type="number" id="soLuong" value="1" min="1">
+                    <button type="button" id="btnTang" aria-label="Tăng"><i class="fas fa-plus"></i></button>
+                </div>
+
+                <p class="label">Tạm tính</p>
+                <p class="subtotal" id="tamTinh">1.034.550₫</p>
+
+                <button class="btn btn-red">Mua ngay</button>
+                <button class="btn btn-outline">Thêm vào giỏ</button>
+                <button class="btn btn-outline">Mua trước trả sau</button>
+            </div>
+            <div class="banner">
+                <b>ĐIỆN MÁY</b>
+                <span>Giá Tốt Chốt Ngay !!</span>
+            </div>
+        </aside>
+    </div>
+</main>
+
+@section scripts {
+    <script src="~/Scripts/script.js"></script>
+}

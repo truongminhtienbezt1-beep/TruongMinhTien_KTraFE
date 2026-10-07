@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewBag.Title | Tiki</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="topbar">Freeship đơn từ 45k, giảm nhiều hơn cùng <b>FREESHIP XTRA</b></div>
+        <div class="container nav">
+            <a href="#" class="logo">TIKI<small>Tốt &amp; Nhanh</small></a>
+            <div class="search">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Freeship đơn từ 45k">
+                    <button type="button">Tìm kiếm</button>
+                </div>
+                <div class="keywords">
+                    <a href="#">điện gia dụng</a><a href="#">xe cộ</a><a href="#">mẹ &amp; bé</a><a href="#">khỏe đẹp</a>
+                    <a href="#">nhà cửa</a><a href="#">sách</a><a href="#">thể thao</a><a href="#">ensure</a>
+                    <a href="#">ensure gold</a><a href="#">ensure nước</a><a href="#">boost optimum</a>
+                </div>
+            </div>
+            <div class="nav-right">
+                <a href="#"><i class="fas fa-home"></i> Trang chủ</a>
+                <a href="#"><i class="far fa-smile"></i> Tài khoản</a>
+                <a href="#" class="cart"><i class="fas fa-shopping-cart"></i><span class="badge">0</span></a>
+            </div>
+        </div>
+        <div class="container nav-sub">
+            <ul class="commit">
+                <li><b>Cam kết</b></li>
+                <li><i class="fas fa-check-circle"></i> 100% hàng thật</li>
+                <li><i class="fas fa-shield-alt"></i> Hoàn 200% nếu hàng giả</li>
+                <li><i class="fas fa-undo"></i> 30 ngày đổi trả</li>
+                <li><i class="fas fa-bolt"></i> Giao nhanh 2h</li>
+                <li><i class="fas fa-tag"></i> Giá siêu rẻ</li>
+                <li><i class="fas fa-truck"></i> Freeship mọi đơn</li>
+            </ul>
+            <p class="deliver"><i class="fas fa-map-marker-alt"></i> Giao đến: <u>Q. 1, P. Bến Nghé, Hồ Chí Minh</u></p>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
